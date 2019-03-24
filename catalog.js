@@ -45,7 +45,24 @@
 	atjs.update = function () {
 		atjs.parentUpdate();  // calls the default handler
 
-		// Do whatever else you need to do here.
+		
+
+
+
+/* Do whatever else END */                
+                
+                
+	};
+
+	atjs.controllers.didChange = function (id) {
+		// Lets you know if content of the controllers have changed
+		// No need to call the default handler
+	}
+
+
+}(this.atjs));
+
+// Do whatever else you need to do here.
                
 function popDiv(e) {
 
@@ -119,23 +136,6 @@ function closePopUp(e) {
 
         popDiv(e);
 }
-
-
-
-
-/* Do whatever else END */                
-                
-                
-	};
-
-	atjs.controllers.didChange = function (id) {
-		// Lets you know if content of the controllers have changed
-		// No need to call the default handler
-	}
-
-
-}(this.atjs));
-
 
 
 
