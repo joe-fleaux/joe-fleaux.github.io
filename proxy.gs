@@ -68,7 +68,7 @@ function test_doGet() {
   e.parameter.sheet = 'Portfolio';  // sheet with the data
   e.parameter.range = 'A:M';  // the range in the sheet
   e.parameter.templateSheet = 'Template';  // Name of the template 
-  e.parameter.templateRange = 'A1:C2';    
+  e.parameter.templateRange = 'A1:B2';    
   e.parameters.callback = 'callback';   // This does nothing
   //doGet(e);
   Logger.log(doGet(e).getContent());
