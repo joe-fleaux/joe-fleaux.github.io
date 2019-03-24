@@ -64,9 +64,9 @@ function test_doGet() {
   var e = {};
   e.parameter = {};
   e.parameters = {};
-  e.parameter.url = "https://docs.google.com/spreadsheets/d/1f0kyT8Rdb-45vwr3M4gK5VyC3-7PQJtk88yy1I0xXlI/edit"; // url of the spreadsheet
-  e.parameter.sheet = 'Data';  // sheet with the data
-  e.parameter.range = 'A:Z';  // the range in the sheet
+  e.parameter.url = "https://docs.google.com/spreadsheets/d/1OmZCmvVjESV4Fq53DU6yF34xT0renRY6D99waGiHBy4/edit"; // url of the spreadsheet
+  e.parameter.sheet = 'Portfolio';  // sheet with the data
+  e.parameter.range = 'A:M';  // the range in the sheet
   e.parameter.templateSheet = 'Template';  // Name of the template 
   e.parameter.templateRange = 'A1:C2';    
   e.parameters.callback = 'callback';   // This does nothing
