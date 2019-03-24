@@ -175,17 +175,7 @@ this.atjs = {};
 	*/
 	
 	
-	   $( function() {
-    var handle = $( "#custom-handle" );
-    $( "#slider" ).slider({
-      create: function() {
-        handle.text( $( this ).slider( "value" ) );
-      },
-      slide: function( event, ui ) {
-        handle.text( ui.value );
-      }
-    });
-  } );
+
                
 function popDiv(e) {
 
@@ -300,3 +290,15 @@ function closePopUp(e) {
 
 
 }(this.atjs));
+
+	   $( function() {
+    var handle = $( "#custom-handle" );
+    $( "#slider" ).slider({
+      create: function() {
+        handle.text( $( this ).slider( "value" ) );
+      },
+      slide: function( event, ui ) {
+        handle.text( ui.value );
+      }
+    });
+  } );
