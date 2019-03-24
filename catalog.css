@@ -6,6 +6,7 @@
         cursor:pointer;
 }
 .container {
+        padding:7px;
         text-align:left;
         height: 100%;
         max-width:500px;
@@ -148,7 +149,7 @@
 }
 
 .Big-Img {
-        padding:7px;
+        padding:10px;
         width:100%;
         margin-bottom:15px;
 }
