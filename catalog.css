@@ -162,7 +162,6 @@
 
 .Big-Img {
         width:100%;
-        margin: 10px;
 }
 
 .closePopup img {
@@ -196,6 +195,7 @@
 
 
 .info {
+        margin: 7px;
         padding-bottom: 10px;
 }
 
