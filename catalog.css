@@ -234,7 +234,7 @@
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
-  height: 14px; /* Specified height */
+  height: 8px; /* Specified height */
   border-radius: 5px;
   background: #d3d3d3; /* Grey background */
   outline: none; /* Remove outline */
@@ -255,7 +255,7 @@
   width: 14px; /* Set a specific slider handle width */
   height: 14px; /* Slider handle height */
   border-radius: 50%;
-  background: #4CAF50; /* Green background */
+  background: #FC264A; /* Red background */
   cursor: pointer; /* Cursor on hover */
 }
 
@@ -263,7 +263,7 @@
   width: 14px; /* Set a specific slider handle width */
   height: 14px; /* Slider handle height */
   border-radius: 50%;
-  background: #4CAF50; /* Green background */
+  background: #FC264A; /* Red background */
   cursor: pointer; /* Cursor on hover */
 }
 
