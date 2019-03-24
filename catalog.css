@@ -2,6 +2,7 @@
 
 @import url(https://indestructibletype.com/fonts/Jost.css);
 
+
 .card:not(.card-padding) {
         cursor:pointer;
 }
@@ -25,13 +26,13 @@
 
 .name {
         font-family: 'Jost', Arial, sans-serif;
-        font-size: 19px;
-        font-weight: 700;
-        margin: 0 0 !important;
+        font-size: 20px;
+        line-height: 130%;
+        margin: 0 0 2px 0;
         text-decoration: none;
+        font-weight: 700;
         color: black;
         padding-right: 0;
-        padding-top: 1px;
         font-style: normal;
         display:block;
         word-wrap:break-word;
@@ -40,13 +41,17 @@
 .img-preview{
     display: flex;
     justify-items: center;
+    max-width:500px;
+    margin-bottom: 8px;
+
 }
 .img-preview:after {
     content: "";
     display: block;
-    margin-bottom: 100%;
-    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     width: 0;
+
 }
 .img-preview>img{
         height: 100%;
@@ -77,26 +82,34 @@
         text-align:center;
         float:right;
         display: none;
+
+        font-family: 'Jost', Arial, sans-serif;
+        font-weight: 700;
+
+        border-radius:4px;
+        padding-top:5px;
+
+        text-decoration:none;
+        font-size:20px;
+        color: white;
+        background-color:#FC264A;
 }
 .popUpOpen .button-container {
         display: inline-block;
 }
 
 .openButton {
+        font-family: 'Jost', Arial, sans-serif;
+        font-weight: 700;
         display:none;
 
-        width: 150px;
-        height: 20px;
-
-        padding:0.7em 1.0em 0.7em 1.0em;
-        margin-top:6px;
-        margin-left:10px;
-
         border-radius:4px;
+        padding-top:4px;
 
         text-decoration:none;
         text-align:center;
-        font-size:15px;
+        font-size:20px;
+        color: white;
         background-color:#FC264A;
 }
 
@@ -148,8 +161,8 @@
 }
 
 .Big-Img {
+        padding-right:0px;
         width:100%;
-        margin-bottom:15px;
 }
 
 .closePopup img {
@@ -157,33 +170,35 @@
 }
 
 .details {
-        color: #555555;
         font-family: 'Jost', Arial, sans-serif;
-        font-weight:400;
+        color: #444444;
         line-height: 16px;
         font-size: 16px;
+        font-weight: 400;
         text-decoration: none;
         letter-spacing: -0.5px;
         font-style: normal;
 }
 
 .Price {
-        text-decoration: none;
         font-family: 'Jost', Arial, sans-serif;
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 16px;
         color: #FB2547;
+        font-weight: 400;
         clear: left;
         font-style: normal;
+        word-wrap: break-word;
         display:block;
-        margin:7px 0 !important;
+        margin:9px 0 5px 0;
 }
+
 
 .info {
         margin:0 7px;
+        padding-bottom: 10px;
 }
-
 
 
 /*** CSS for Awesome Table Gadget***/
