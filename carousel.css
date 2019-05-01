@@ -5,6 +5,8 @@ html, body {
 
 .carousel {
     position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
 }
 
 .carousel-inner {
@@ -23,13 +25,12 @@ html, body {
     opacity: 0;
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
-    width:100%;
 }
 
 .carousel-item img {
     display: block;
     height: auto;
-    width:100%;
+    max-width: 100%;
 }
 
 .carousel-control {
